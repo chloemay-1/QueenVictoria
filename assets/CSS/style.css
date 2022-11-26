@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none ;
+    
+}
+header {
+    background-color: rgb(123, 67, 0);
+    height: 20vh;
+}
+body { 
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:rgb(218, 244, 241);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 300%;
+    color: rgba(212, 180, 121, 0.558);
+    text-align: center;
+}
+h2 {
+    font-size: 150%;
+    color:rgba(212, 180, 121, 0.558);
+    text-align: center;
+}
+h3 { 
+    color:rgb(123, 67, 0);
+    text-align: center;
+}
+#howAre {
+    margin: 30px;
+}
+.royals {
+    color:rgb(123, 67, 0);
+    font-size: 30px;
+    background-color: rgb(218, 244, 241);
+    margins: 10px;
+}
+.royals:hover { 
+    color:rgba(212, 180, 121, 0.558);
+    background-color: rgb(123, 67, 0);
+}
